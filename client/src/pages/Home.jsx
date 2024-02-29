@@ -1,3 +1,4 @@
+import About from "../components/about/About"
 import Hero from "../components/hero/Hero"
 import Navbar from "../components/navbar/Navbar"
 import Story from "../components/story/Story"
@@ -10,6 +11,7 @@ function Home() {
             <Hero />
             <Story />
             <Vision />
+            <About />
         </div>
     )
 }
