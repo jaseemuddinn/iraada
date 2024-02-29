@@ -1,20 +1,10 @@
 import storyBg from '../../assets/storyBg.png'
 import videoIcon from '../../assets/videoIcon.png'
+import Heading from '../heading/Heading'
 function Story() {
     return (
         <div className='h-lvh'>
-            <div className="relative flex">
-                <h1
-                    className="absolute left-0 text-[20px] lg:text-[70px] font-bold ml-[210px]  text-gray-900 opacity-15 md:block hidden">
-                    STORY
-                </h1>
-                <h1 className="pl-2 text-3xl font-bold md:text-5xl text-black flex items-center mt-10">
-                    <div className='h-[2px] w-20 bg-gray-900 mr-2' ></div>
-                    <span className='text-xl'>
-                        What's Our &nbsp;
-                    </span> Story
-                </h1>
-            </div>
+            <Heading name={"Story"} />
             <div className='md:flex md:mt-20 mt-5'>
                 <p className='md:px-24 px-7'>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam quas voluptas alias cumque. Repudiandae corrupti omnis quasi. Mollitia temporibus, ipsam soluta fugit nobis natus, eius quam voluptates explicabo eos ullam.
