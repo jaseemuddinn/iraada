@@ -1,6 +1,6 @@
 import React from 'react'
-import backgroundImg from '../../assets/hero.png'
-import videoIcon from '../../assets/videoIcon.png'
+import backgroundImg from '../../../assets/hero.png'
+import videoIcon from '../../../assets/videoIcon.png'
 
 function Hero() {
     return (

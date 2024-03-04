@@ -1,8 +1,11 @@
-import About from "../components/about/About"
-import Hero from "../components/hero/Hero"
+import Footer from "../components/footer/Footer"
+import Card from "../components/homeComponents/card/Card"
+import Hero from "../components/homeComponents/hero/Hero"
+import Story from "../components/homeComponents/story/Story"
+import Vision from "../components/homeComponents/vision/Vision"
+import Whoweare from "../components/homeComponents/whoweare/Whoweare"
 import Navbar from "../components/navbar/Navbar"
-import Story from "../components/story/Story"
-import Vision from "../components/vision/Vision"
+
 
 function Home() {
     return (
@@ -11,7 +14,9 @@ function Home() {
             <Hero />
             <Story />
             <Vision />
-            <About />
+            <Whoweare />
+            <Card />
+            <Footer />
         </div>
     )
 }

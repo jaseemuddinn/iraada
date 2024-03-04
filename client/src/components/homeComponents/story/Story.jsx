@@ -1,10 +1,10 @@
-import storyBg from '../../assets/storyBg.png'
-import videoIcon from '../../assets/videoIcon.png'
+import storyBg from '../../../assets/storyBg.png'
+import videoIcon from '../../../assets/videoIcon.png'
 import Heading from '../heading/Heading'
 function Story() {
     return (
-        <div className='h-lvh'>
-            <Heading name={"Story"} />
+        <div className='md:h-lvh mb-5' >
+            <Heading initial={"What's Our"} name={"Story"} />
             <div className='md:flex md:mt-20 mt-5'>
                 <p className='md:px-24 px-7'>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam quas voluptas alias cumque. Repudiandae corrupti omnis quasi. Mollitia temporibus, ipsam soluta fugit nobis natus, eius quam voluptates explicabo eos ullam.
