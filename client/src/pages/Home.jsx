@@ -10,7 +10,9 @@ import Navbar from "../components/navbar/Navbar"
 function Home() {
     return (
         <div>
-            <Navbar />
+            <div className="md:flex items-center justify-center">
+                <Navbar />
+            </div>
             <Hero />
             <Story />
             <Vision />

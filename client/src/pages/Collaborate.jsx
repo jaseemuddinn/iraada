@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from '../components/navbar/Navbar'
 
 function Collaborate() {
   return (
-    <div>Collaborate</div>
+    <div>
+      <div className='md:flex justify-center items-center'>
+        <Navbar />
+      </div>
+    </div>
   )
 }
 
