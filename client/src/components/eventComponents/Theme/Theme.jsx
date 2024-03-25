@@ -32,7 +32,7 @@ function Theme() {
                     Air
                 </div>
                 <div className='rounded-full p-8 bg-gray-500 hover:bg-gradient-to-bl from-green-400 via-teal-400 to-blue-500 hover:italic'>
-                    Scope in EVS - Caree, Academic and Research Prospects
+                    Scope in EVS - Care, Academic and Research Prospects
                 </div>
                 <div className='rounded-full p-8 bg-gray-500 hover:bg-gradient-to-bl from-green-400 via-teal-400 to-blue-500 hover:italic'>
                     Startup/Business Ecosystems
