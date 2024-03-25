@@ -15,14 +15,13 @@ const Navbar = () => {
                 <div className="flex items-center justify-between h-20 ">
                     <div className="flex items-center justify-between">
                         <div className="flex-shrink-0">
-                            <h1 className="text-white font-bold text-xl font-Montserrat">IRAADA</h1>
+                            <h1 className="text-white font-bold text-xl font-Montserrat">IRADA</h1>
                         </div>
                         <div className="hidden md:block ">
                             <div className="mx-10 flex items-baseline space-x-4 style font-Montserrat">
                                 <a onClick={() => navigate('/')} className="cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
                                 <a onClick={() => navigate('/event')} className="cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About Event</a>
                                 <a onClick={() => navigate('/team')} className="cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Our Team</a>
-                                <a onClick={() => navigate('/collaborate')} className="cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Work with us</a>
                                 <a onClick={() => navigate('/sponsor')} className="cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Sponsorship</a>
                                 <a onClick={() => navigate('/contact')} className="cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact us</a>
                                 <a onClick={() => navigate('/faq')} className="cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">FAQs</a>
@@ -57,7 +56,6 @@ const Navbar = () => {
                         <a onClick={() => navigate("/")} className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
                         <a onClick={() => navigate("/event")} className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About Event</a>
                         <a onClick={() => navigate("/team")} className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Our Team</a>
-                        <a onClick={() => navigate("/collaborate")} className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Work with us</a>
                         <a onClick={() => navigate("/sponsor")} className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Sponsorship</a>
                         <a onClick={() => navigate("/contact")} className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact us</a>
                         <a onClick={() => navigate("/faq")} className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">FAQs</a>

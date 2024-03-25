@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="bg-black text-white p-20">
             <div className="flex flex-wrap justify-between">
                 <div className="w-full md:w-1/2 lg:w-1/5">
-                    <h2 className="text-xl font-bold font-Montserrat">IRAADA</h2>
+                    <h2 className="text-xl font-bold font-Montserrat">IRADA</h2>
                     <p className='font-Montserrat font-light'>lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem</p>
                 </div>
                 <div className="w-full md:w-1/2 lg:w-1/5">

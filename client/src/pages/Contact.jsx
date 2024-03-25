@@ -91,47 +91,7 @@ function Contact() {
                 </form>
               </div>
             )}
-            {/* <form>
-              <div className="grid gap-4 lg:gap-6">
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
-                  <div>
-                    <label htmlFor="hs-firstname-contacts-1" className="block mb-2 text-sm text-gray-700 font-medium ">First Name</label>
-                    <input type="text" name="hs-firstname-contacts-1" id="hs-firstname-contacts-1" className="py-3 px-4 block w-full border border-gray-300 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none" />
-                  </div>
 
-                  <div>
-                    <label htmlFor="hs-lastname-contacts-1" className="block mb-2 text-sm text-gray-700 font-medium ">Last Name</label>
-                    <input type="text" name="hs-lastname-contacts-1" id="hs-lastname-contacts-1" className="py-3 px-4 block w-full border-gray-300 border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none" />
-                  </div>
-                </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
-                  <div>
-                    <label htmlFor="hs-email-contacts-1" className="block mb-2 text-sm text-gray-700 font-medium ">Email</label>
-                    <input type="email" name="hs-email-contacts-1" id="hs-email-contacts-1" autoComplete="email" className="py-3 px-4 block w-full border-gray-300 border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none" />
-                  </div>
-
-                  <div>
-                    <label htmlFor="hs-phone-number-1" className="block mb-2 text-sm text-gray-700 font-medium ">Phone Number</label>
-                    <input type="text" name="hs-phone-number-1" id="hs-phone-number-1" className="py-3 px-4 block w-full border-gray-300 border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none" />
-                  </div>
-                </div>
-
-                <div>
-                  <label htmlFor="hs-about-contacts-1" className="block mb-2 text-sm text-gray-700 font-medium ">Details</label>
-                  <textarea id="hs-about-contacts-1" name="hs-about-contacts-1" rows="4" className="py-3 px-4 block w-full border-gray-300 border rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none"></textarea>
-                </div>
-              </div>
-
-              <div className="mt-6 grid">
-                <button onClick={() => { handleSubmit }} type="submit" className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-[#fcc94c] text-black hover:bg-[#e9be53] disabled:opacity-50 disabled:pointer-events-none">Send inquiry</button>
-              </div>
-
-              <div className="mt-3 text-center">
-                <p className="text-sm text-gray-500">
-                  We'll get back to you in 1-2 business days.
-                </p>
-              </div>
-            </form> */}
           </div>
         </div>
 
@@ -147,11 +107,11 @@ function Contact() {
               </p>
             </div>
           </a>
-          <a className="border group flex flex-col h-full text-center rounded-lg hover:bg-gray-100 p-4 sm:p-6" href="mailto:contact@iraada.com">
+          <a className="border group flex flex-col h-full text-center rounded-lg hover:bg-gray-100 p-4 sm:p-6" href="mailto:contact@IRADA.com">
             <svg className="size-9 text-gray-800 mx-auto " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2v5Z" /><path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1" /></svg>
             <div className="mt-5">
               <h3 className="text-lg font-semibold text-gray-800 ">Contact us by email</h3>
-              <p className="mt-1 text-gray-500">If you wish to write us an email instead please use contact@iraada.com</p>
+              <p className="mt-1 text-gray-500">If you wish to write us an email instead please use contact@IRADA.com</p>
               <p className="mt-5 inline-flex items-center gap-x-1 font-medium text-black ">
                 Send Email
                 <svg className="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>

@@ -13,8 +13,8 @@ function FAQ() {
                     <div className="max-w-2xl mx-auto">
                         <div className="hs-accordion-group">
                             <FaqCard q={"Can I Cancel Anytime?"} a={"Yes you can cancel it anytime."} />
-                            <FaqCard q={"What is Iraada?"} a={"Iraada is environmental organisation."} />
-                            <FaqCard q={"How Iraada is different from other organisation?"} a={"It focuses on global health and for everyone."} />
+                            <FaqCard q={"What is IRADA?"} a={"IRADA is environmental organisation."} />
+                            <FaqCard q={"How IRADA is different from other organisation?"} a={"It focuses on global health and for everyone."} />
                         </div>
                     </div>
                 </div>
