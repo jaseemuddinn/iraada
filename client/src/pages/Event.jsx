@@ -13,7 +13,7 @@ function Event() {
       </div>
       <Landing />
       <Theme />
-      <Eligibility />
+      {/* <Eligibility /> */}
       <Footer />
     </div>
   )
