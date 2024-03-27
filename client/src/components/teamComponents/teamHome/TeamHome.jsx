@@ -3,8 +3,8 @@ import img from '../../../assets/whoweareBg.png'
 
 function TeamHome() {
     return (
-        <div className='lg:h-lvh bg-[#fcedc6] flex justify-center items-center p-5'>
-            <div style={{}} className='bg-[#f2c94c] md:w-4/5 rounded-3xl flex p-10 justify-between md:overflow-x-auto md:overflow-y-auto'>
+        <div className='lg:h-lvh bg-[#a3e4b1] flex justify-center items-center p-5'>
+            <div style={{}} className='bg-[#39e75f] md:w-4/5 rounded-3xl flex p-10 justify-between md:overflow-x-auto md:overflow-y-auto'>
                 <div className='lg:w-1/2 lg:pr-10'>
                     <h1 className='font-Montserrat font-bold text-4xl md:text-5xl lg:text-5xl'>
                         We as a Team

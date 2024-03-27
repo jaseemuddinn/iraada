@@ -9,7 +9,7 @@ function Card() {
                 <div className='absolute w-1/2'>
                     <h1 className=' text-center text-white font-Montserrat font-bold text-4xl'>You Can Also Contribute to Make This World A Better Place</h1>
                     <div className='flex items-center justify-center gap-10 mt-5'>
-                        <button className='bg-[#fcc94c] px-5 py-2 rounded font-Montserrat font-medium'>
+                        <button className='bg-[#39e75f] px-5 py-2 rounded font-Montserrat font-medium'>
                             Join as a Volunteer
                         </button>
                         <button className='bg-white px-5 py-2 rounded font-Montserrat font-medium'>

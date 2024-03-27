@@ -80,7 +80,7 @@ function Contact() {
                   </div>
 
                   <div className="mt-6 grid">
-                    <button onClick={handleSubmit} type="submit" className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-[#fcc94c] text-black hover:bg-[#e9be53] disabled:opacity-50 disabled:pointer-events-none">Send inquiry</button>
+                    <button onClick={handleSubmit} type="submit" className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-[#39e75f] text-black hover:bg-[#5bd776] disabled:opacity-50 disabled:pointer-events-none">Send inquiry</button>
                   </div>
 
                   <div className="mt-3 text-center">

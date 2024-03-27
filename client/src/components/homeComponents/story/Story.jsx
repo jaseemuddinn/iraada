@@ -15,7 +15,7 @@ function Story() {
                     Voluptates, quaerat ipsa libero incidunt natus facilis sapiente quisquam deserunt perspiciatis vel quidem nemo optio eius enim reiciendis aut omnis perferendis aperiam veritatis quae dicta beatae dolore hic ipsam. Voluptate!
                     Quisquam a quam tenetur pariatur officia magni culpa? Placeat aspernatur maxime necessitatibus quam excepturi sint fugit eveniet quaerat. Eos hic dolorem beatae delectus veniam rerum minima voluptatum consectetur neque! Eligendi.
                     <br /><br />
-                    <button className='bg-[#fcc94c] px-4 py-3 rounded-lg font-medium'>
+                    <button className='bg-[#39e75f] px-4 py-3 rounded-lg font-medium'>
                         Learn more
                     </button>
                 </p>

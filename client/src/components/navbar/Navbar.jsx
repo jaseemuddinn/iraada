@@ -19,12 +19,12 @@ const Navbar = () => {
                         </div>
                         <div className="hidden md:block ">
                             <div className="mx-10 flex items-baseline space-x-4 style font-Montserrat">
-                                <a onClick={() => navigate('/')} className="cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                                <a onClick={() => navigate('/event')} className="cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About Event</a>
-                                <a onClick={() => navigate('/team')} className="cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Our Team</a>
-                                <a onClick={() => navigate('/sponsor')} className="cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Sponsorship</a>
-                                <a onClick={() => navigate('/contact')} className="cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact us</a>
-                                <a onClick={() => navigate('/faq')} className="cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">FAQs</a>
+                                <a onClick={() => navigate('/')} className="cursor-pointer text-gray-300 hover:bg-[#39e75f] hover:text-black px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                                <a onClick={() => navigate('/event')} className="cursor-pointer text-gray-300 hover:bg-[#39e75f] hover:text-black px-3 py-2 rounded-md text-sm font-medium">About Event</a>
+                                <a onClick={() => navigate('/team')} className="cursor-pointer text-gray-300 hover:bg-[#39e75f] hover:text-black px-3 py-2 rounded-md text-sm font-medium">Our Team</a>
+                                <a onClick={() => navigate('/sponsor')} className="cursor-pointer text-gray-300 hover:bg-[#39e75f] hover:text-black px-3 py-2 rounded-md text-sm font-medium">Sponsorship</a>
+                                <a onClick={() => navigate('/contact')} className="cursor-pointer text-gray-300 hover:bg-[#39e75f] hover:text-black px-3 py-2 rounded-md text-sm font-medium">Contact us</a>
+                                <a onClick={() => navigate('/faq')} className="cursor-pointer text-gray-300 hover:bg-[#39e75f] hover:text-black px-3 py-2 rounded-md text-sm font-medium">FAQs</a>
 
                             </div>
 
