@@ -10,7 +10,15 @@ function Whoweare() {
                 <div className='md:px-24 px-7 leading-normal'>
                     <h1 className='font-bold text-3xl mb-3 md:text-5xl'>Who Do We Represent?</h1>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci quae assumenda architecto corporis velit reiciendis aperiam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste sunt explicabo temporibus earum, iusto adipisci esse nulla, delectus aliquid quas pariatur accusantium illum eum! Qui eos cupiditate fugiat a veritatis.
+                        We are a group of passionate, motivated, and enthusiastic young people from the constituent colleges of University of Delhi who are students by day and leaders as well as activists by passion.
+                        <br />
+                        <br />
+                        The mission we share is to protect the environment. Our mutual objective is to bring about a positive change in our neighbourhood by bringing attention to the serious environmental problems we are currently facing.
+                        <br />
+                        <br />
+                        Therefore, we are planning to host one of the largest Youth Environmental Summit. This summit will serve as a platform for students, academicians, environmentalists to come together and exchange ideas, strategies, and best practices to mitigate the impact of climate change, global warming and other concurrent environmental issues and preserve our natural resources.
+                        <br /><br />
+                        We invite you to join us, as we work towards creating a greener, more sustainable future for ourselves and generations to come.
                     </p>
                     <div className='md:flex md:justify-evenly text-center mb-10'>
                         <div className='mt-12'>

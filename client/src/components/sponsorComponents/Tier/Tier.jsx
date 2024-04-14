@@ -8,11 +8,11 @@ function Tier() {
                 Tiers
             </h1>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-5 justify-center items-center mt-5 mb-10'>
-                <TierCard title={"Diamond"} detail={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate."} />
-                <TierCard title={"Platinum"} detail={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate."} />
-                <TierCard title={"Gold"} detail={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate."} />
-                <TierCard title={"Silver"} detail={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate."} />
-                <TierCard title={"Bronze"} detail={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptate."} />
+                <TierCard title={"Diamond"} detail={""} />
+                <TierCard title={"Platinum"} detail={""} />
+                <TierCard title={"Gold"} detail={""} />
+                <TierCard title={"Silver"} detail={""} />
+                <TierCard title={"Bronze"} detail={""} />
             </div>
             <div>
                 <p className='text-lg font-medium'>In addition to the above, we offer 5 exclusive Premier Partnership Segmenets that provide exceptional benefits and opportunities for our esteemed partners:</p>
