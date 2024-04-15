@@ -1,26 +1,44 @@
 import React from 'react'
 import TeamCard from '../components/teamComponents/teamCard/TeamCard'
-import achintya from '../assets/team/Achintya.jpg'
-import akshay from '../assets/team/Akshay.jpg'
-import anjali from '../assets/team/Anjali.jpg'
-import ayushkr from '../assets/team/AyushkrGupta.jpg'
-import chirag from '../assets/team/ChiragBP.jpg'
-import Divyanshu from '../assets/team/Divyanshu.jpg'
-import Diya from '../assets/team/DiyaBhatt.jpg'
-import komal from '../assets/team/Komaldeep.jpg'
-import krishna from '../assets/team/Krishna.jpg'
-import parinita from '../assets/team/Parinita.png'
-import Rahul from '../assets/team/Rahul.jpg'
-import Rajeev from '../assets/team/Rajeev.jpg'
-import Samriddhi from '../assets/team/Samriddhi.jpg'
-import Sana from '../assets/team/Sana.jpg'
-import Shambhavi from '../assets/team/Shambhavi.jpg'
-import vanshika from '../assets/team/Vanshika.jpg'
-import vanshikanagar from '../assets/team/VanshikaNagar.jpg'
-import yashasvi from '../assets/team/Yashasvi.jpg'
-import suyash from '../assets/team/suyash.jpg'
+import achintya from '../assets/team/Achintya.jpeg'
+import akshay from '../assets/team/Akshay.jpeg'
+import anjali from '../assets/team/anjali.jpeg'
+import ayushkr from '../assets/team/ayushkrgupta.jpeg'
+import chirag from '../assets/team/chirag.jpeg'
+import Divyanshu from '../assets/team/divyanshu.jpeg'
+import Diya from '../assets/team/diya.jpeg'
+import komal from '../assets/team/komaldeep.jpeg'
+import krishna from '../assets/team/krishna.jpeg'
+import parinita from '../assets/team/parinati.jpeg'
+import Rahul from '../assets/team/rahul.jpeg'
+import Rajeev from '../assets/team/rajeev.jpeg'
+import Samriddhi from '../assets/team/samriddhi.jpeg'
+import Sana from '../assets/team/sana.jpeg'
+import Shambhavi from '../assets/team/shambhavi.jpeg'
+import vanshika from '../assets/team/vanshikagoswami.jpeg'
+import vanshikanagar from '../assets/team/VanshikaNagar.jpeg'
+import yashasvi from '../assets/team/yashasvi.jpeg'
+import suyash from '../assets/team/suyash.jpeg'
 import nizam from '../assets/team/Nazim.jpeg'
 import kangleikhonbi from '../assets/team/kangleikhonbi.jpeg'
+import adhar from "../assets/team/adhar.jpeg"
+import ananya from "../assets/team/ananya.jpeg"
+import anushka from "../assets/team/anushka.jpeg"
+import astha from "../assets/team/astha.jpeg"
+import ayushverma from "../assets/team/ayushverma.jpeg"
+import doliya from "../assets/team/doliya.jpeg"
+import gurnoor from "../assets/team/gurnoor.jpeg"
+import isha from "../assets/team/isha.jpeg"
+import khusboo from "../assets/team/khusboo.jpeg"
+import kmal from "../assets/team/kmal.jpeg"
+import masoom from "../assets/team/masoom.jpeg"
+import prashant from "../assets/team/prashant.jpeg"
+import priyanshi from "../assets/team/priyanshi.jpeg"
+import samiksha from "../assets/team/samiksha.jpeg"
+import suhas from "../assets/team/suhas.jpeg"
+import vishal from "../assets/team/vishal.jpeg"
+import vishwapriya from "../assets/team/vishwapriya.jpeg"
+import aditya from "../assets/team/aditya.jpeg"
 import Navbar from '../components/navbar/Navbar'
 import TeamHome from '../components/teamComponents/teamHome/TeamHome'
 import Footer from '../components/footer/Footer'
@@ -58,6 +76,24 @@ function Team() {
                 <TeamCard name={"Suyash Pandey"} position={"Design Team"} description={"I'm Suyash Pandey, a Mathematics student at the University of Delhi, originally from Lucknow, Uttar Pradesh. Engaging in extracurriculars, I joined the Nature and Environmental Society and now contribute to the Environmental Summit's design team. Excited to raise awareness for environmental causes through digital design."} imgSrc={suyash} />
                 <TeamCard name={"Nazim Hosain"} position={"Research Team"} description={"Nazim is an environment enthusiast and is pursuing BSc (Hons) in Chemistry from Hansraj College, University of Delhi. Nazim is also a green researcher working on ways to achieve green growth.He is also an NSS volunteer working for social cause and a Women and Child Rights Activist. He also took part in various field surveys like Surveys conducted under Unnat Bharat Abhiyan, etc."} imgSrc={nizam} />
                 <TeamCard name={" Kangleikhonbi Maibam"} position={"Event Management Team"} description={"I'm Kangleikhonbi Maibam, a B.Sc (Hons.) Physics student at Miranda House, Delhi University, deeply passionate about environmental issues. Joining the Environmental Summit aligns with my lifelong dream of combating environmental pollution. Alongside academics, I'm actively engaged in singing, sports, and currently serve as the Vice-President of the North-East Society at Miranda House. With enthusiasm and leadership qualities, I'm determined to drive change and make our Earth a better place."} imgSrc={kangleikhonbi} />
+                <TeamCard name={"Aadhar"} position={"Event Management Team"} description={""} imgSrc={adhar} />
+                <TeamCard name={"Ananya"} position={"Event Management Team"} description={""} imgSrc={ananya} />
+                <TeamCard name={"Anushka"} position={"Event Management Team"} description={""} imgSrc={anushka} />
+                <TeamCard name={"Aastha"} position={"Design Team"} description={""} imgSrc={astha} />
+                <TeamCard name={"Ayush Verma"} position={"Social Media Team"} description={""} imgSrc={ayushverma} />
+                <TeamCard name={"Doliya"} position={"Social Media Team"} description={""} imgSrc={doliya} />
+                <TeamCard name={"Gurnoor"} position={"Design Team"} description={""} imgSrc={gurnoor} />
+                <TeamCard name={"Isha"} position={"Design Team"} description={""} imgSrc={isha} />
+                <TeamCard name={"Khusbhu"} position={"Design Team"} description={""} imgSrc={khusboo} />
+                <TeamCard name={"Komal"} position={"Design Team"} description={""} imgSrc={kmal} />
+                <TeamCard name={"Masoom"} position={"Event Management Team"} description={""} imgSrc={masoom} />
+                <TeamCard name={"Prashant"} position={"PR & Communications Team"} description={""} imgSrc={prashant} />
+                <TeamCard name={"Priyanshi"} position={"Editorial Team"} description={""} imgSrc={priyanshi} />
+                <TeamCard name={"Samiksha"} position={"Design Team"} description={""} imgSrc={samiksha} />
+                <TeamCard name={"Suhas"} position={"Social Media Team"} description={""} imgSrc={suhas} />
+                <TeamCard name={"Vishal"} position={"PR & Communications Team"} description={""} imgSrc={vishal} />
+                <TeamCard name={"Vishwapriya"} position={"Editorial Team"} description={""} imgSrc={vishwapriya} />
+                <TeamCard name={"Aditya"} position={"Editorial Team"} description={""} imgSrc={aditya} />
                 
             </div>
             <Footer />
