@@ -47,7 +47,7 @@ function Vision() {
                     </div>
                 </div>
                 <div className='md:flex justify-center items-center pr-24 hidden'>
-                    <img className='w-[400px]' src={visionBg} alt="" />
+                    <img className='w-[1000px] h-[500px]' src={visionBg} alt=""/>
                 </div>
 
             </div>
